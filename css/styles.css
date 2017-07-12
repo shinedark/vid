@@ -1,9 +1,47 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
-/*div {
-    
-   font-family: 'Monoton', cursive;
-}*/
+#instructions {
+  position: absolute;
+  width: 100vw;
+  z-index: 500000;
+  background-color: rgba(255,255,255,0.8);
+  height: 100vh;
+  text-align: center;
+  font-family: 'Monoton';
+}
+
+#instructions a {
+  font-size: -webkit-xxx-large;
+  text-decoration: none;
+  color: black;
+}
+
+h3.hote {
+    line-height: 12px;
+    padding: 30px;
+    text-decoration: overline;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+p.inst {
+    padding: 30px;
+    font-size: -webkit-xxx-large;
+    font-weight: 500;
+}
+
+ul.list {
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+}
+
+li {
+    display: inline-grid;
+    padding: 60px;
+    font-size: -webkit-xxx-large;
+}
+
 
 .hotel {
   padding: 109px;
