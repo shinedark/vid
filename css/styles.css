@@ -42,6 +42,10 @@ li {
     font-size: -webkit-xxx-large;
 }
 
+a.hello {
+    font-size: medium;
+    font-family: monospace;
+}
 
 .hotel {
   padding: 109px;
