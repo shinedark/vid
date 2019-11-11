@@ -1,5 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
+
 #instructions {
   position: absolute;
   width: 100vw;
@@ -77,6 +78,25 @@ a.hello {
   -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
   z-index: 1000;
+}
+
+@media only screen and (max-width: 500px){
+  .inst{
+    font-size: medium;
+  }
+  .list{
+    font-size: medium;
+  } 
+  .hello{
+    font-size: medium;
+  }
+  .hote{
+    display: none;
+  }
+  .hotel2{
+    display: none;
+  }
+
 }
 
 

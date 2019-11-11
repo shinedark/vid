@@ -12,7 +12,8 @@ window.addEventListener('keydown', function(e){
     el.classList.add('show');
     animation.style.animationPlayState = "running";
     animation.style.animationDuration = "0.3s";
-  
+
+      
 });
 
 
@@ -30,8 +31,15 @@ window.addEventListener('keyup', function(e){
     el.classList.remove('show');
     animation.style.animationPlayState = "paused";
     animation.style.animationDuration = "0s";
+
 });
 
+$(document).ready(function(){
+  $('body').on('click','#close',function(e){
+    e.preventDefault();
+    $('#instructions').remove();
+  });
+});
 
 
 

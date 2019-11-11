@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 	<link rel="stylesheet" href="css/styles.css" />
 	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 	<title>C-Am SV</title>
@@ -83,20 +84,9 @@
 <audio data-key="78" src="sounds/25.wav"></audio>
 <audio data-key="77" src="sounds/26.wav"></audio>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jmobile.js"></script>
 <script src="js/app.js"></script>
-<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-<script>
-$(document).ready(function(){
-  $('body').on('click','#close',function(e){
-    e.preventDefault();
-    $('#instructions').remove();
-  });
-});
-</script>
-
-
 </body>
 </html>
